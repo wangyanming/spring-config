@@ -8,8 +8,6 @@ spring:
       server:
         git:
           uri: https://github.com/wangyanming/spring-config.git
-          #username: wymwangyanming@yeah.net
-          #password: 08211413wym
 
 eureka:
   client:
