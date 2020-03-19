@@ -1,4 +1,5 @@
 server:
+<<<<<<< HEAD
   port: 8770
 
 eureka:
@@ -49,3 +50,6 @@ spring:
             enable: true
             required: true
 
+=======
+  port: 8769
+>>>>>>> 83df21c9b45ad79c3a586cb533514adbb47fd603
