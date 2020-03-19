@@ -8,8 +8,9 @@ spring:
       server:
         git:
           uri: https://github.com/wangyanming/spring-config.git
-          default-label: master
-# ×¢²áÖÐÐÄ
+          username: wymwangyanming@yeah.net
+          password: 08211413wym
+
 eureka:
   client:
     service-url:
