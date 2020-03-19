@@ -1,15 +1,5 @@
 server:
   port: 8770
-
-eureka:
-  client:
-    service-url:
-      defaultZone: http://admin:mosh123456@localhost:8760/eureka/
-  instance:
-    #每10s向服务端发送一次心跳
-    lease-renewal-interval-in-seconds: 10
-    #通知服务端，如果60秒没有发送心跳，将我提出掉
-    lease-expiration-duration-in-seconds: 60
     
 management:
   endpoints:
